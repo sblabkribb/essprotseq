@@ -13,11 +13,11 @@ This repository provides the source code and example test datasets used to repro
 
 ## Repository Structure
 
-- **`data/raw_data/`**: Gene data of each strain (`essentiality`, `protein_seq`, `DNA_seq`, `genome_id`, `organism`, `locus_tag`, etc.).
+- **`data/raw_data/`**: Gene data by each strain ('essentiality', 'protein_seq', 'dna_seq', 'genome_id', 'locus_tag', etc.).
 - **`data/test_exam/`**: Example test datasets consisting of genes from *E. coli* Keio collection.
-- **`models/`**: Pre-trained models to predict essential genes ('classifier_~') or encode protein sequences (embed_custom).
+- **`models/`**: Models to predict essential genes ('classifier_~') or encode protein sequences (embed_custom).
 - **`results/`**: Model evaluation, prediction results and model training history.
-- **`sources/`**: Jupyter notebook source codes for sequence embedding ('emb-~') or model test and prediction ('test-~').
+- **`sources/`**: Jupyter notebook codes for sequence embedding ('emb-~') or model test and prediction ('test-~').
 
 ## How to Use
 
