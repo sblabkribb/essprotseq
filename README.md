@@ -1,7 +1,7 @@
 # Deep learning based Essential Gene Prediction
 
 ## Introduction
-This repository provides the source code and example test datasets used to reproduce the test environments for each model introduced in our paper, *"Predicting Bacterial Essential Genes Solely on the Protein Sequences."* Additionally, it includes a comprehensive dataset of approximately 280,000 bacterial essential genes collected from 79 studies. Users can utilize the example code and data to replicate the processes of protein sequence embedding and essential gene classification. Furthermore, with minor modifications to the provided examples, users can test the models and make predictions using their own data.
+This repository provides the source code and example test datasets used to reproduce the test environments for each model introduced in our paper, *"Deep Learning Based Bacterial Essential Gene Prediciton Solely on the Protein Sequences"* Additionally, it includes a comprehensive dataset of approximately 280,000 bacterial essential genes collected from 79 studies. Users can utilize the example code and data to replicate the processes of protein sequence embedding and essential gene classification. Furthermore, with minor modifications to the provided examples, users can test the models and make predictions using their own data.
 
 ## Key Features
 
