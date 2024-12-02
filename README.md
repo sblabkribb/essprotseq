@@ -6,6 +6,7 @@ This repository provides the source code and example test datasets used to repro
 ## Key Features
 
 - **Protein Sequence Only**: Predict essential genes using only protein sequences without complex data integration.
+- **Extended Bacterial Essential Gene Dataset**: Experimental essentiality data of approximately 280,000 bacterial genes collected from 79 studies ('essentiality', 'protein_seq', 'dna_seq', 'genome_id', 'locus_tag', etc.).
 
 ## Performance
 
@@ -13,7 +14,7 @@ This repository provides the source code and example test datasets used to repro
 
 ## Repository Structure
 
-- **`data/raw_data/`**: Gene data by each strain ('essentiality', 'protein_seq', 'dna_seq', 'genome_id', 'locus_tag', etc.).
+- **`data/raw_data/`**: Essential gene datasets (include non-essential genes) of each strain.
 - **`data/test_exam/`**: Example test datasets consisting of genes from *E. coli* Keio collection.
 - **`models/`**: Models to predict essential genes ('classifier_~') or encode protein sequences (embed_custom).
 - **`results/`**: Model evaluation, prediction results and model training history.
