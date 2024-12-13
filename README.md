@@ -1,11 +1,11 @@
-# Deep learning based Essential Gene Prediction
+# Predicting Bacterial Essential Genes Solely on the Protein Sequences
 
 ## Introduction
-This repository provides the source code and example test datasets used to reproduce the test environments for each model introduced in our paper, *"Deep Learning Based Bacterial Essential Gene Prediciton Solely on the Protein Sequences"* Additionally, it includes gene essentiality datasets of individual strain collected from 79 studies. Users can utilize the example code and data to replicate the processes of protein sequence embedding and essential gene classification. Furthermore, with minor modifications to the provided examples, users can test the models and make predictions using their own data.
+This repository provides the source code and example test datasets used to reproduce the test environments for each model introduced in our paper, *"Predicting Bacterial Essential Genes Solely on the Protein Sequences"* Additionally, it includes gene essentiality datasets of individual strains. Users can utilize the example code and data to replicate the processes of protein sequence embedding and essential gene classification. Furthermore, with minor modifications to the provided examples, users can test the models and make predictions using their own data.
 
 ## Key Features
 
-- **Protein Sequence Only**: Predict essential genes using only protein sequences without complex data integration.
+- **Protein Sequence Only**: Predict essential genes using only their protein sequences without complex feature data integration.
 - **Extended Bacterial Essential Gene Dataset**: Experimental essentiality data of approximately *280,000 bacterial genes* collected from 79 studies ('essentiality', 'protein_seq', 'dna_seq', 'genome_id', 'locus_tag', etc.).
 
 ## Performance
@@ -48,7 +48,7 @@ This repository provides the source code and example test datasets used to repro
 
 To cite this work, please reference:
 ```
-Seongbo Heo et al. "Deep Learning Based Bacterial Essential Gene Prediction Solely on the Protein Sequences." Synthetic Biology Research Center, KRIBB.
+Seongbo Heo et al. "Predicting Bacterial Essential Genes Solely on the Protein Sequences" Synthetic Biology Research Center, KRIBB.
 ```
 
 ## Acknowledgments
