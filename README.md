@@ -1,4 +1,4 @@
-# Bacterial Essential Gene Prediction Based on Sequence
+# Bacterial Essential Protein Prediction Based on Sequence
 
 ## Introduction
 This repository provides the source code and example test datasets used to reproduce the test environments for each model introduced in our paper, *"Predicting Bacterial Essential Genes Solely on the Protein Sequences"* Additionally, it includes gene essentiality datasets of individual strains. Users can utilize the example code and data to replicate the processes of protein sequence embedding and essential gene classification. Furthermore, with minor modifications to the provided examples, users can test the models and make predictions using their own data.
@@ -24,7 +24,7 @@ This repository provides the source code and example test datasets used to repro
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/sblabkribb/deessgene.git
+   git clone https://github.com/sblabkribb/essprotseq.git
    cd deessgene
    ```
 
@@ -35,7 +35,7 @@ This repository provides the source code and example test datasets used to repro
 
 3. **Set options (data_path, etc.) in each source code**:
    ```python
-   # Set options
+   # Set options (example of 'test-indiv_class.ipynb')
    embed_ver = ["clstm", "esm2", "bert", "t5"]
    data_path = "../data/test_exam/"
    model_path = f"../models/classifier_indiv/"
