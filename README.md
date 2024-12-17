@@ -1,4 +1,4 @@
-# Sequence Based-prediction of Bacterial Essential Genes
+# Bacterial Essential Gene Prediction Based on Sequence
 
 ## Introduction
 This repository provides the source code and example test datasets used to reproduce the test environments for each model introduced in our paper, *"Predicting Bacterial Essential Genes Solely on the Protein Sequences"* Additionally, it includes gene essentiality datasets of individual strains. Users can utilize the example code and data to replicate the processes of protein sequence embedding and essential gene classification. Furthermore, with minor modifications to the provided examples, users can test the models and make predictions using their own data.
