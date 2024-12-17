@@ -6,9 +6,9 @@ This repository provides the source code and example test datasets used to repro
 ## Key Features
 
 - **Protein Sequence Is All You Need**: Predict bacterial essential genes using only their protein sequences without complex feature data integration.
-- **Extended Bacterial Essential Gene Dataset**: Experimental essentiality data of approximately *280,000 bacterial genes* collected from 79 studies ('essentiality', 'protein_seq', 'dna_seq', 'genome_id', 'locus_tag', etc.).
+- **Extended Bacterial Essential Gene Dataset**: Experimental essentiality data (features: *'essentiality', 'protein_seq', 'dna_seq', 'genome_id', 'locus_tag', etc.*) of approximately *280,000 bacterial genes* collected from 79 studies.
 
-## Performance
+## Model Performances
 
 ![performance](performance.png)
 
