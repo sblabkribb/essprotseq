@@ -38,8 +38,8 @@ This repository provides the source codes and example datasets that reproduce th
    # Set options (example of 'test-indiv_class.ipynb')
    embed_ver = ["clstm", "esm2", "bert", "t5"]
    data_path = "../data/test_exam/"
-   model_path = f"../models/classifier_indiv/"
-   result_path = f"../results/"
+   model_path = "../models/classifier_indiv/"
+   result_path = "../results/"
    ```
 4. **Run the source code**
 
