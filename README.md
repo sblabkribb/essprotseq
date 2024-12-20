@@ -25,7 +25,7 @@ This repository provides the source codes and example datasets that reproduce th
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/sblabkribb/essprotseq.git
-   cd deessgene
+   cd essprotseq
    ```
 
 2. **Install dependencies**:
