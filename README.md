@@ -1,7 +1,7 @@
 # Bacterial Essential Protein Prediction Based on Sequence
 
 ## Introduction
-This repository provides the source codes and example datasets that reproduce the test environments for each model introduced in the paper, *"Ensemble Strategy Using Only Protein Sequences for Prediction of Bacterial Essential Genes"*, as well as gene essentiality datasets for individual strains. Users can utilize the example code and data to implement protein sequence embedding and essential gene prediction, and can perform predictions on their own data with minor modifications to the provided example codes.
+This repository provides the source codes and example datasets that reproduce the test environments for each model introduced in the paper, *"Deep Learning-based Simple Ensemble Approach for Prediction of Bacterial Essential Genes Using Protein Sequence Embedding"*, as well as gene essentiality datasets for individual strains. Users can utilize the example code and data to implement protein sequence embedding and essential gene prediction, and can perform predictions on their own data with minor modifications to the provided example codes.
 
 ## Key Features
 
@@ -48,7 +48,7 @@ This repository provides the source codes and example datasets that reproduce th
 
 To cite this work, please reference:
 ```
-Seongbo Heo et al. "Ensemble Strategy Using Only Protein Sequences for Prediction of Bacterial Essential Genes" Synthetic Biology Research Center, KRIBB.
+Seongbo Heo et al. "Deep Learning-based Simple Ensemble Approach for Prediction of Bacterial Essential Genes Using Protein Sequence Embedding" Synthetic Biology Research Center, KRIBB.
 ```
 
 ## Acknowledgments
